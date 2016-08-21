@@ -14,6 +14,13 @@
 		763FCBB61D667F6F00F10CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763FCBB41D667F6F00F10CF1 /* LaunchScreen.storyboard */; };
 		763FCBC11D667F6F00F10CF1 /* MyPetMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FCBC01D667F6F00F10CF1 /* MyPetMonsterTests.swift */; };
 		763FCBCC1D667F6F00F10CF1 /* MyPetMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763FCBCB1D667F6F00F10CF1 /* MyPetMonsterUITests.swift */; };
+		76B881641D68D368005D70E6 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B881631D68D368005D70E6 /* DragImg.swift */; };
+		76B881661D691FF4005D70E6 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B881651D691FF4005D70E6 /* MonsterImg.swift */; };
+		76B881681D6926B7005D70E6 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B881671D6926B7005D70E6 /* skull.wav */; };
+		76B8816A1D6926C2005D70E6 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76B881691D6926C2005D70E6 /* cave-music.mp3 */; };
+		76B8816C1D6926CD005D70E6 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B8816B1D6926CD005D70E6 /* bite.wav */; };
+		76B8816E1D6926DA005D70E6 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B8816D1D6926DA005D70E6 /* death.wav */; };
+		76B881701D6926E9005D70E6 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76B8816F1D6926E9005D70E6 /* heart.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		763FCBC71D667F6F00F10CF1 /* MyPetMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPetMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		763FCBCB1D667F6F00F10CF1 /* MyPetMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetMonsterUITests.swift; sourceTree = "<group>"; };
 		763FCBCD1D667F6F00F10CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B881631D68D368005D70E6 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		76B881651D691FF4005D70E6 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		76B881671D6926B7005D70E6 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		76B881691D6926C2005D70E6 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		76B8816B1D6926CD005D70E6 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		76B8816D1D6926DA005D70E6 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		76B8816F1D6926E9005D70E6 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,15 @@
 		763FCBAA1D667F6F00F10CF1 /* MyPetMonster */ = {
 			isa = PBXGroup;
 			children = (
+				76B8816B1D6926CD005D70E6 /* bite.wav */,
+				76B881691D6926C2005D70E6 /* cave-music.mp3 */,
+				76B881671D6926B7005D70E6 /* skull.wav */,
+				76B8816D1D6926DA005D70E6 /* death.wav */,
+				76B8816F1D6926E9005D70E6 /* heart.wav */,
 				763FCBAB1D667F6F00F10CF1 /* AppDelegate.swift */,
 				763FCBAD1D667F6F00F10CF1 /* ViewController.swift */,
+				76B881651D691FF4005D70E6 /* MonsterImg.swift */,
+				76B881631D68D368005D70E6 /* DragImg.swift */,
 				763FCBAF1D667F6F00F10CF1 /* Main.storyboard */,
 				763FCBB21D667F6F00F10CF1 /* Assets.xcassets */,
 				763FCBB41D667F6F00F10CF1 /* LaunchScreen.storyboard */,
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					763FCBA71D667F6F00F10CF1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZH845MTME4;
 					};
 					763FCBBB1D667F6F00F10CF1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,8 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B8816C1D6926CD005D70E6 /* bite.wav in Resources */,
+				76B881701D6926E9005D70E6 /* heart.wav in Resources */,
+				76B881681D6926B7005D70E6 /* skull.wav in Resources */,
+				76B8816A1D6926C2005D70E6 /* cave-music.mp3 in Resources */,
 				763FCBB61D667F6F00F10CF1 /* LaunchScreen.storyboard in Resources */,
 				763FCBB31D667F6F00F10CF1 /* Assets.xcassets in Resources */,
+				76B8816E1D6926DA005D70E6 /* death.wav in Resources */,
 				763FCBB11D667F6F00F10CF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B881661D691FF4005D70E6 /* MonsterImg.swift in Sources */,
+				76B881641D68D368005D70E6 /* DragImg.swift in Sources */,
 				763FCBAE1D667F6F00F10CF1 /* ViewController.swift in Sources */,
 				763FCBAC1D667F6F00F10CF1 /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyPetMonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morgan.MyPetMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyPetMonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morgan.MyPetMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +517,7 @@
 				763FCBD21D667F6F00F10CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763FCBD31D667F6F00F10CF1 /* Build configuration list for PBXNativeTarget "MyPetMonsterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +526,7 @@
 				763FCBD51D667F6F00F10CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763FCBD61D667F6F00F10CF1 /* Build configuration list for PBXNativeTarget "MyPetMonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +535,7 @@
 				763FCBD81D667F6F00F10CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
